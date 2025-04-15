@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    background-color: orange;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+h2, h3 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-one, .line-two {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: rgb(154, 60, 17);
+}
+
+.yellow {
+    background-color: rgb(178, 233, 67);
+}
+
+.grey {
+    background-color: rgb(219, 209, 209);
+}
+
+.purple {
+    background-color: rgb(209, 22, 209);
+}
+
+.flashBtn {
+    background-color: white !important;
+}
+
+.userFlash {
+    background-color: aquamarine !important;
+}
